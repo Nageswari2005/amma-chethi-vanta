@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amma Chethi Vanta Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="site-nav">
+        <a class="logo" href="index.html">
+            <span>Amma Chethi Vanta</span>
+            <small>Fresh . Healthy . Homemade</small>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <button id="darkMode" class="icon-btn" type="button" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <a class="cart-icon" href="cart.html" aria-label="Open cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-left">
+                <p class="eyebrow">Authentic Telugu homemade food</p>
+                <h1>Amma Chethi Vanta</h1>
+                <p>
+                    Meals cooked with traditional Andhra flavors, fresh ingredients,
+                    and the comfort of food served like home.
+                </p>
+                <div class="hero-actions">
+                    <a href="menu.html" class="btn">Explore Menu</a>
+                    <a href="contact.html" class="btn secondary-btn">Reserve Table</a>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <img src="ammachethivanta.png" alt="Amma Chethi Vanta food plate">
+            </div>
+        </section>
+
+        <section class="features" aria-label="Restaurant highlights">
+            <article class="feature-card">
+                <i class="fas fa-heart"></i>
+                <h3>Made With Love</h3>
+                <p>Every meal is prepared with care and homely flavor.</p>
+            </article>
+
+            <article class="feature-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Fresh Ingredients</h3>
+                <p>Vegetables, spices, and rice selected fresh every day.</p>
+            </article>
+
+            <article class="feature-card">
+                <i class="fas fa-motorcycle"></i>
+                <h3>Fast Delivery</h3>
+                <p>Hot food packed neatly and delivered quickly.</p>
+            </article>
+
+            <article class="feature-card">
+                <i class="fas fa-award"></i>
+                <h3>Premium Quality</h3>
+                <p>Traditional taste with clean and reliable service.</p>
+            </article>
+        </section>
+
+        <section class="specials">
+            <div class="section-heading">
+                <p class="eyebrow">Popular today</p>
+                <h2>Today's Specials</h2>
+            </div>
+
+            <div class="food-container">
+                <article class="food-card" data-category="veg">
+                    <img src="https://t4.ftcdn.net/jpg/14/72/74/31/360_F_1472743139_bi8mKbosPXCuzDxHxmvgqrR8DXxNOQuV.jpg" alt="Special veg thali">
+                    <div class="food-body">
+                        <h3>Special Veg Thali</h3>
+                        <p class="food-meta">Aromatic rice with touch of Amma.</p>
+                        <div class="food-footer">
+                            <span class="price">Rs. 199</span>
+                            <button type="button" data-cart-name="Special Veg Thali" data-cart-price="199">Add To Cart</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-card" data-category="non-veg">
+                    <img src="https://res.cloudinary.com/dg4wzx8c8/image/upload/v1764825173/recipes/images/mvugpbwhlisfivpjjp4l.jpg" alt="Chepala Pulusu">
+                    <div class="food-body">
+                        <h3>Chepala Pulusu</h3>
+                        <p class="food-meta">.</p>
+                        <div class="food-footer">
+                            <span class="price">Rs. 200</span>
+                            <button type="button" data-cart-name="Chepala Pulusu" data-cart-price="200">Add To Cart</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-card" data-category="tiffins">
+                    <img src="https://media.andhrajyothy.com/webstories/2025/12/51/a174d6f9-f43d-42bd-96f1-3cc7d1455bcc-jonna-rotte.jpg" alt="Jonna Rotte">
+                    <div class="food-body">
+                        <h3>Jonna Rotte</h3>
+                        <p class="food-meta">Healthy sorghum flatbread paired with traditional Andhra curries..</p>
+                        <div class="food-footer">
+                            <span class="price">Rs. 49</span>
+                            <button type="button" data-cart-name="Jonna Rotte" data-cart-price="49">Add To Cart</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="stats" aria-label="Restaurant statistics">
+            <div class="stat-box">
+                <h2 data-target="5000">0</h2>
+                <p>Happy Customers</p>
+            </div>
+            <div class="stat-box">
+                <h2 data-target="100">0</h2>
+                <p>Food Items</p>
+            </div>
+            <div class="stat-box">
+                <h2 data-target="25">0</h2>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-box">
+                <h2 data-target="9" data-suffix="/10">0</h2>
+                <p>Customer Rating</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Amma Chethi Vanta</h3>
+        <p>Made with love. Served like home.</p>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>Copyright 2026 Amma Chethi Vanta Restaurant</p>
+    </footer>
+
+    <a href="https://wa.me/919876543210" class="whatsapp-btn" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button id="topBtn" class="icon-btn top-btn" type="button" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Amma Chethi Vanta</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="site-nav">
+    <a href="index.html" class="logo">
+        <span>Amma Chethi Vanta</span>
+        <small>Fresh • Healthy • Homemade</small>
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="review.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+        <a class="cart-icon" href="cart.html">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="page-hero compact-hero">
+    <p class="eyebrow">Authentic Andhra Cuisine</p>
+    <h1>Our Menu</h1>
+    <p>
+        Discover traditional Andhra flavors crafted with fresh ingredients
+        and homemade recipes.
+    </p>
+</section>
+
+<!-- FILTERS -->
+<section class="specials">
+
+    <div class="section-heading">
+        <p class="eyebrow">Explore</p>
+        <h2>Menu Categories</h2>
+    </div>
+
+    <div class="filter-group centered">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="veg">Veg</button>
+        <button class="filter-btn" data-filter="non-veg">Non Veg</button>
+        <button class="filter-btn" data-filter="traditional-food">Traditional Food</button>
+        <button class="filter-btn" data-filter="traditional-drinks">Drinks</button>
+        <button class="filter-btn" data-filter="sweets">Sweets</button>
+    </div>
+
+    <div class="food-container">
+
+        <!-- VEG -->
+         <article class="food-card" data-category="veg">
+    <img src="https://t4.ftcdn.net/jpg/14/72/74/31/360_F_1472743139_bi8mKbosPXCuzDxHxmvgqrR8DXxNOQuV.jpg">
+    <div class="food-body">
+        <h3>Special Andhra Meals</h3>
+        <p class="food-meta">Aromatic rice cooked with fresh vegetables and spices.</p>
+        <div class="food-footer">
+            <span class="price">₹179</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+        <article class="food-card" data-category="veg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0VTRfPe286C_Tbneh30tjzbeJkeMAolQjvg&s">
+            <div class="food-body">
+                <h3>Gongura Pappu</h3>
+                <p class="food-meta">Tangy gongura leaves cooked with lentils.</p>
+                <div class="food-footer">
+                    <span class="price">₹129</span>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </article>
+        <!-- Dosakaya Pappu -->
+<article class="food-card" data-category="veg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBLKovkHudVMsixG2i_6MQYE12g-Neh0z6qA&s" alt="Dosakaya Pappu">
+    <div class="food-body">
+        <h3>Dosakaya Pappu</h3>
+        <p class="food-meta">Yellow lentils cooked with fresh cucumber and Andhra spices.</p>
+        <div class="food-footer">
+            <span class="price">₹129</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<!-- Mudda Pappu -->
+<article class="food-card" data-category="veg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlHhDfyDVfIWQdPEaqkAaHfHcjzWkqFniaXA&s" alt="Mudda Pappu">
+    <div class="food-body">
+        <h3>Mudda Pappu</h3>
+        <p class="food-meta">Simple and wholesome plain dal served with hot rice and ghee.</p>
+        <div class="food-footer">
+            <span class="price">₹99</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<!-- Coconut Rice -->
+<article class="food-card" data-category="veg">
+    <img src="https://cookilicious.com/wp-content/uploads/2021/08/Coconut-Rice-18-960x1440.jpg" alt="Coconut Rice">
+    <div class="food-body">
+        <h3>Coconut Rice</h3>
+        <p class="food-meta">Fragrant rice mixed with fresh coconut and mild spices.</p>
+        <div class="food-footer">
+            <span class="price">₹129</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+
+
+<!-- Mushroom Curry -->
+<article class="food-card" data-category="veg">
+    <img src="https://sinfullyspicy.com/wp-content/uploads/2021/05/1-1.jpg" alt="Mushroom Curry">
+    <div class="food-body">
+        <h3>Mushroom Curry</h3>
+        <p class="food-meta">Fresh mushrooms cooked in rich onion tomato gravy.</p>
+        <div class="food-footer">
+            <span class="price">₹179</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+
+
+        <!-- NON VEG -->
+
+        <article class="food-card" data-category="non-veg">
+            <img src="https://th-i.thgim.com/public/incoming/pxi2vk/article68107079.ece/alternates/FREE_1200/IMG_iStock-1413124373_2_1_NPBGSPB4.jpg">
+            <div class="food-body">
+                <h3>Andhra Biryani</h3>
+                <p class="food-meta">Spicy Andhra chicken biryani with aromatic basmati rice.</p>
+                <div class="food-footer">
+                    <span class="price">₹199</span>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card" data-category="non-veg">
+            <img src="https://static.toiimg.com/thumb/98850036/98850036.jpg?height=746&width=420&resizemode=76&imgsize=49702">
+            <div class="food-body">
+                <h3>Natukodi Pulusu</h3>
+                <p class="food-meta">Traditional country chicken curry with Andhra spices.</p>
+                <div class="food-footer">
+                    <span class="price">₹249</span>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </article><article class="food-card" data-category="non-veg">
+    <img src="https://i.ytimg.com/vi/QfUWvWuoi5M/maxresdefault.jpg">
+    <div class="food-body">
+        <h3>Royyala Vepudu</h3>
+        <p class="food-meta">Bhimavaram-style spicy prawn fry with coastal flavors.</p>
+        <div class="food-footer">
+            <span class="price">₹299</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<article class="food-card" data-category="non-veg">
+    <img src="https://t4.ftcdn.net/jpg/15/82/55/33/360_F_1582553397_fGLZeDUEJowdEpOTc6gYAZbXINJnlKIv.jpg">
+    <div class="food-body">
+        <h3>chapala vepudu</h3>
+        <p class="food-meta">Fresh fish marinated with Andhra spices and fried crispy.</p>
+        <div class="food-footer">
+            <span class="price">₹249</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<article class="food-card" data-category="non-veg">
+    <img src="https://img.freepik.com/premium-photo/andhra-pradesh-gongura-mutton-tangy-leafy-curry_960396-1016669.jpg?w=360">
+    <div class="food-body">
+        <h3>Gongura Mutton</h3>
+        <p class="food-meta">Tender mutton cooked with tangy gongura leaves.</p>
+        <div class="food-footer">
+            <span class="price">₹329</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<!-- Kodi Vepudu -->
+<article class="food-card" data-category="non-veg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2u7VAkPM-viklWNHhJa0fLO02s_ZGaUh9BA&s" alt="Kodi Vepudu">
+    <div class="food-body">
+        <h3>Kodi Vepudu</h3>
+        <p class="food-meta">Andhra-style chicken fry cooked with curry leaves and spices.</p>
+        <div class="food-footer">
+            <span class="price">₹229</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<!-- Chicken Roast -->
+<article class="food-card" data-category="non-veg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWRz2YltaaB4NU-9E7DNNVZg-H_7z-f_GZSA&s" alt="Chicken Roast">
+    <div class="food-body">
+        <h3>Chicken Roast</h3>
+        <p class="food-meta">Juicy roasted chicken coated in traditional masala.</p>
+        <div class="food-footer">
+            <span class="price">₹239</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+<!-- Mutton Curry -->
+<article class="food-card" data-category="non-veg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Npvpahn-Llm9YC7CSlDcVwkMhB8kfZwHDw&s" alt="Mutton Curry">
+    <div class="food-body">
+        <h3>Mutton Curry</h3>
+        <p class="food-meta">Tender mutton slow-cooked in rich Andhra gravy.</p>
+        <div class="food-footer">
+            <span class="price">₹299</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+<!-- Chepala Pulusu -->
+<article class="food-card" data-category="non-veg">
+    <img src="https://res.cloudinary.com/dg4wzx8c8/image/upload/v1764825173/recipes/images/mvugpbwhlisfivpjjp4l.jpg" alt="Chepala Pulusu">
+    <div class="food-body">
+        <h3>Chepala Pulusu</h3>
+        <p class="food-meta">Classic Andhra fish curry made with tamarind and spices.</p>
+        <div class="food-footer">
+            <span class="price">₹249</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+<!-- Prawns Curry -->
+<article class="food-card" data-category="non-veg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0vLx_KQOQiYAdAmIScMdET1uoKyE6D_YBzA&s" alt="Prawns Curry">
+    <div class="food-body">
+        <h3>Prawns Curry</h3>
+        <p class="food-meta">Succulent prawns cooked in spicy Andhra masala.</p>
+        <div class="food-footer">
+            <span class="price">₹329</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+
+
+        <!-- TRADITIONAL FOOD -->
+
+       
+        </article><article class="food-card" data-category="traditional-food">
+    <img src="https://vismaifood.com/storage/app/uploads/public/2bd/043/d4e/thumb__700_0_0_0_auto.jpg">
+    <div class="food-body">
+        <h3>Dibba Rotti</h3>
+        <p class="food-meta">Traditional thick rice pancake with crispy edges.</p>
+        <div class="food-footer">
+            <span class="price">₹99</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<article class="food-card" data-category="traditional-food">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPolf14rbgskKs-UdgmoJpk8BXW_k-dA17TQ&s">
+    <div class="food-body">
+        <h3>Ragi Sangati</h3>
+        <p class="food-meta">Healthy finger millet balls served Andhra-style.</p>
+        <div class="food-footer">
+            <span class="price">₹119</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<article class="food-card" data-category="traditional-food">
+    <img src="https://media.andhrajyothy.com/webstories/2025/12/51/a174d6f9-f43d-42bd-96f1-3cc7d1455bcc-jonna-rotte.jpg">
+    <div class="food-body">
+        <h3>Jonna Rotte</h3>
+        <p class="food-meta">Traditional sorghum flatbread rich in nutrition.</p>
+        <div class="food-footer">
+            <span class="price">₹89</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+<!-- Garelu -->
+<article class="food-card" data-category="traditional-food">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFlth3Txm2VM0fEzfHkRLA9HlxKJA9yvX2SA&s" alt="Garelu">
+    <div class="food-body">
+        <h3>Garelu</h3>
+        <p class="food-meta">Traditional Andhra vadas with crispy texture.</p>
+        <div class="food-footer">
+            <span class="price">₹79</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+
+
+<!-- Korra Annam -->
+<article class="food-card" data-category="traditional-food">
+    <img src="https://c.ndtvimg.com/2024-10/bin5agv_south-indian-drink_625x300_04_October_24.jpg?im=FeatureCrop,algorithm=dnn,width=384,height=384" alt="Korra Annam">
+    <div class="food-body">
+        <h3>Korra Annam</h3>
+        <p class="food-meta">Healthy millet rice rich in nutrition and flavor.</p>
+        <div class="food-footer">
+            <span class="price">₹129</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+
+
+
+        <!-- DRINKS -->
+
+        <article class="food-card" data-category="traditional-drinks">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Hjb57wDZZYA8fTCethvNoajqCx8Ct_vwJg&s">
+            <div class="food-body">
+                <h3>Majjiga</h3>
+                <p class="food-meta">Refreshing Andhra-style buttermilk.</p>
+                <div class="food-footer">
+                    <span class="price">₹49</span>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card" data-category="traditional-drinks">
+    <img src="https://i0.wp.com/foodtrails25.com/wp-content/uploads/2023/07/Kesar-Badam-Milk-recipe.jpg?resize=720%2C1080&ssl=1">
+    <div class="food-body">
+        <h3>Badam Milk</h3>
+        <p class="food-meta">Rich almond milk flavored with saffron and cardamom.</p>
+        <div class="food-footer">
+            <span class="price">₹89</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<article class="food-card" data-category="traditional-drinks">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaaoozAKj08yQipWj7-_4GJ1FAE2128ZDvaQ&s">
+    <div class="food-body">
+        <h3>Nannari Sharbat</h3>
+        <p class="food-meta">Refreshing herbal summer drink made from nannari roots.</p>
+        <div class="food-footer">
+            <span class="price">₹69</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+<!-- Panakam -->
+<article class="food-card" data-category="traditional-drinks">
+    <img src="https://www.cookclickndevour.com/wp-content/uploads/2018/03/Panakam-Recipe.jpg" alt="Panakam">
+    <div class="food-body">
+        <h3>Panakam</h3>
+        <p class="food-meta">Traditional jaggery drink flavored with cardamom.</p>
+        <div class="food-footer">
+            <span class="price">₹49</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+        <!-- SWEETS -->
+
+        <article class="food-card" data-category="sweets">
+            <img src="https://i.ytimg.com/vi/qwQFpjDrCBw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDnpV4AyHXZOwmYh75r83euaQ6kGQ">
+            <div class="food-body">
+                <h3>Bobbatlu</h3>
+                <p class="food-meta">Traditional sweet flatbread stuffed with jaggery.</p>
+                <div class="food-footer">
+                    <span class="price">₹99</span>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </article>
+        <article class="food-card" data-category="sweets">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxLBjhM_dGdmZORq843Ixnaz4yGhiEU0YZtw&s">
+    <div class="food-body">
+        <h3>Ariselu</h3>
+        <p class="food-meta">Traditional Andhra sweet made with rice flour and jaggery.</p>
+        <div class="food-footer">
+            <span class="price">₹99</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<article class="food-card" data-category="sweets">
+    <img src="https://i.ytimg.com/vi/tTWBcdPQKoo/maxresdefault.jpg">
+    <div class="food-body">
+        <h3>Boorelu</h3>
+        <p class="food-meta">Sweet dumplings stuffed with lentils and jaggery.</p>
+        <div class="food-footer">
+            <span class="price">₹119</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<!-- Paramannam -->
+<article class="food-card" data-category="sweets">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw8-tnIRhZVRUvdlqA8C_Y4Cx_HMHk5nKGow&s" alt="Paramannam">
+    <div class="food-body">
+        <h3>Paramannam</h3>
+        <p class="food-meta">Traditional Andhra sweet rice cooked with milk and jaggery.</p>
+        <div class="food-footer">
+            <span class="price">₹119</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+<!-- Palathalikalu -->
+<article class="food-card" data-category="sweets">
+    <img src="https://i.ytimg.com/vi/gkgYaRKn1qY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD6Turg5IECTSukE9IYdmAFno_VNg" alt="Palathalikalu">
+    <div class="food-body">
+        <h3>Palathalikalu</h3>
+        <p class="food-meta">Classic festive milk-based Andhra dessert.</p>
+        <div class="food-footer">
+            <span class="price">₹129</span>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+</article>
+
+
+    </div>
+
+</section>
+
+<!-- STATS -->
+<section class="stats">
+    <div class="stat-box">
+        <h2>50+</h2>
+        <p>Traditional Dishes</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>20+</h2>
+        <p>Veg Specials</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>20+</h2>
+        <p>Non-Veg Specials</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>100%</h2>
+        <p>Homemade Taste</p>
+    </div>
+</section>
+
+<footer>
+    <h3>Amma Chethi Vanta</h3>
+    <p>Made with love. Served like home.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
